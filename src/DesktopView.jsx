@@ -45,7 +45,7 @@ export default function DesktopRoute() {
     }, [aboutInView, expInView, portInView, goHighLevelInView, eduInView, certInView, contactInView]);
 
   return (
-    <div id="desktop-design-container" className="hidden lg:flex flex-col items-center justify-center">
+    <div id="desktop-design-container" className="hidden 2xl:flex flex-col items-center justify-center">
 
         <nav
           id="desktop-nav"
