@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Client Success Specialist & Operations Support",
+    "company": "FIREHOUSE PEST CONTROL",
+    "dates": "Dates Employed",
+    "image": "/jho/firehouse_logo.jpg",
+    "responsibilities": [
+      "Responsibility 1",
+      "Responsibility 2",
+      "Responsibility 3"
+    ]
+  },
+  {
+    "title": "Executive Assistant",
+    "company": "THE MOLD CONSULTANT, LLC",
+    "dates": "Dates Employed",
+    "image": "/jho/tmc_logo.png",
+    "responsibilities": [
+      "Responsibility 1",
+      "Responsibility 2",
+      "Responsibility 3"
+    ]
+  },
+  {
+    "title": "Executive Assistant / Transaction Coordinator / Social Media Manager / Concierge",
+    "company": "HEISER REAL ESTATE GROUP",
+    "dates": "Dates Employed",
+    "image": "/jho/heiser_logo.jpg",
+    "responsibilities": [
+      "Responsibility 1",
+      "Responsibility 2",
+      "Responsibility 3"
+    ]
+  },
+  {
+    "title": "Transaction Coordinator and Email Adviser",
+    "company": "TD SYNNEX CORPORATION",
+    "dates": "2023 - 2025",
+    "image": "/jho/tdsynnex_logo.jpg",
+    "responsibilities": [
+      "Managed CRM automations and workflows",
+      "Trained team members on Go High Level platform",
+      "Integrated third-party tools for marketing campaigns"
+    ]
+  },
+  {
+    "title": "Dispatch Coordinator",
+    "company": "CITIZENS BANK",
+    "dates": "2021 - 2023",
+    "image": "/jho/citizens_bank_logo.jpg",
+    "responsibilities": [
+      "Developed and executed social media strategies",
+      "Increased engagement by 40% across platforms",
+      "Coordinated with designers and copywriters"
+    ]
+  },
+  {
+    "title": "Reservation Specialist",
+    "company": "EXPEDIA",
+    "dates": "2019 - 2021",
+    "image": "/jho/expedia_logo.jpg",
+    "responsibilities": [
+      "Coordinated property listings and client communications",
+      "Assisted with contract preparation and documentation",
+      "Scheduled property viewings and managed calendars"
+    ]
+  },
+  {
+    "title": "Technical Support Specialist",
+    "company": "COMCAST",
+    "dates": "2017 - 2019",
+    "image": "/jho/comcast_logo.jpg",
+    "responsibilities": [
+      "Resolved customer inquiries via phone and email",
+      "Maintained high customer satisfaction ratings",
+      "Documented support issues and solutions"
+    ]
+  },
+  {
+    "title": "Accounts Receivable",
+    "company": "HANSTON BUILDING COMMERCIAL",
+    "dates": "???? - ????",
+    "image": "/jho/blank.jpg",
+    "responsibilities": [
+      "Managed schedules and appointments for executives",
+      "Prepared reports and presentations",
+      "Handled office correspondence and supplies"
+    ]
+  }
+]
