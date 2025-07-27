@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      spacing: {
+        24: '6rem',
+        28: '7rem',
+        32: '8rem',
+        36: '9rem',
+        40: '10rem',
+      },
       fontFamily: {
         sans: [
           'Inter',

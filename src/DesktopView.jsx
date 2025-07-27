@@ -81,7 +81,7 @@ export default function DesktopRoute() {
                 
                 <div id="intro-text" className="w-full flex flex-col justify-center items-start">
                   <h1 className="text-8xl font-bold font-stylescript underline" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Jhonalyn Jamen</h1>
-                  <p className="text-lg mt-5" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                  <p className="text-2xl mt-5" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
                     Executive Assistant • Go High Level Specialist • Social Media Manager
                   </p>
                   <p className="text-sm italic mt-2" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
@@ -90,7 +90,7 @@ export default function DesktopRoute() {
 
                   <div id="contact-buttons" className="w-full flex justify-start items-center space-x-4 mt-5">
                     <button
-                      className="flex items-center text-sm space-x-1 text-white bg-[#5f456e] px-1.5 py-0.5 rounded-sm hover:bg-slate-600 transition-colors duration-300"
+                      className="pointer flex items-center text-sm space-x-2 text-white bg-[#5f456e] px-1.5 py-0.5 rounded-sm hover:bg-slate-600 transition-colors duration-300"
                       data-aos="fade-left"
                       data-aos-delay="900"
                       data-aos-duration="1000"
@@ -100,7 +100,7 @@ export default function DesktopRoute() {
                       <span>LinkedIn</span>
                     </button>
                     <button
-                      className="flex items-center text-sm space-x-1 text-white bg-[#5f456e] px-1.5 py-0.5 rounded-sm hover:bg-slate-600 transition-colors duration-300"
+                      className="pointer flex items-center text-sm space-x-2 text-white bg-[#5f456e] px-1.5 py-0.5 rounded-sm hover:bg-slate-600 transition-colors duration-300"
                       data-aos="fade-left"
                       data-aos-delay="1100"
                       data-aos-duration="1000"
@@ -115,37 +115,37 @@ export default function DesktopRoute() {
           </section>
 
           <section id="employment-history" ref={expRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
-            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start border border-red-400" data-aos-anchor-placement="center-center">
+            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
               <h1 id="employment-history-title" className="text-4xl uppercase font-bold italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Employment History</h1>
             </div>
           </section>
 
           <section id="creative-portfolio" ref={portRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
-            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start border border-red-400" data-aos-anchor-placement="center-center">
+            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
               <h1 id="work-experience-title" className="text-4xl uppercase font-bold italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Creative Portfolio</h1>
             </div>
           </section>
 
           <section id="go-high-level" ref={goHighLevelRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
-            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start border border-red-400" data-aos-anchor-placement="center-center">
+            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
               <h1 id="work-experience-title" className="text-4xl uppercase font-bold italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Go High Level</h1>
             </div>
           </section>
 
           <section id="education" ref={eduRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
-            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start border border-red-400" data-aos-anchor-placement="center-center">
+            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
               <h1 id="work-experience-title" className="text-4xl uppercase font-bold italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Education</h1>
             </div>
           </section>
 
           <section id="certifications" ref={certRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
-            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start border border-red-400" data-aos-anchor-placement="center-center">
+            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
               <h1 id="work-experience-title" className="text-4xl uppercase font-bold italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Certifications</h1>
             </div>
           </section>
 
           <section id="contact" ref={contactRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
-            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start border border-red-400" data-aos-anchor-placement="center-center">
+            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
               <h1 id="work-experience-title" className="text-4xl uppercase font-bold italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Contact</h1>
             </div>
           </section>
