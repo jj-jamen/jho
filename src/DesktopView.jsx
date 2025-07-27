@@ -84,7 +84,7 @@ export default function DesktopRoute() {
                   <p className="text-2xl mt-5" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
                     Executive Assistant • Go High Level Specialist • Social Media Manager
                   </p>
-                  <p className="text-sm italic mt-2" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
+                  <p className="text-lg italic mt-2" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
                     Experienced and adaptable professional with a solid background in customer service, executive support, and real estate coordination. Skilled in CRM tools, admin tasks, and tech support, with a proven track record of delivering efficient, high-quality service across diverse industries.
                   </p>
 
