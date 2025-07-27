@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+.font-stylescript {
+  font-family: 'Style Script', cursive;
+}
+
+body {
+background: #EEAECA;
+background: linear-gradient(255deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.custom-btn {
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px; /* h-0.5 in Tailwind is 2px */
+  background-color: #796290;
+  transition-property: all;
+  transition-duration: 300ms;
+}
+.custom-btn:hover::after {
+  width: 100%;
+}
+
+.custom-btn-active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px; /* h-0.5 in Tailwind is 2px */
+  background-color: #796290;
+}
+
+.pointer {
+  cursor: pointer;
+}
