@@ -73,7 +73,7 @@ export default function DesktopRoute() {
 
                 >
                     <img
-                    src="./public/jho-portfolio-image.png"
+                    src="./jho/jho-portfolio-image.png"
                     alt="Jhonalyn Jamen - Executive Assistant"
                     className="w-[400px] h-[400px] object-cover border-dashed border-2 border-gray-300 rounded-full shadow-lg"
                     />
