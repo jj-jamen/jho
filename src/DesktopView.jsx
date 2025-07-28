@@ -26,13 +26,13 @@ export default function DesktopRoute() {
     { id: "contact", label: "Contact" },
   ];
   
-    const { ref: aboutRef, inView: aboutInView } = useInView({ threshold: 0.5 });
-    const { ref: expRef, inView: expInView } = useInView({ threshold: 0.5 });
-    const { ref: portRef, inView: portInView } = useInView({ threshold: 0.5 });
-    const { ref: goHighLevelRef, inView: goHighLevelInView } = useInView({ threshold: 0.5 });
-    const { ref: eduRef, inView: eduInView } = useInView({ threshold: 0.5 });
-    const { ref: certRef, inView: certInView } = useInView({ threshold: 0.5 });
-    const { ref: contactRef, inView: contactInView } = useInView({ threshold: 0.5 });
+    const { ref: aboutRef, inView: aboutInView } = useInView({ threshold: 0.2 });
+    const { ref: expRef, inView: expInView } = useInView({ threshold: 0.2 });
+    const { ref: portRef, inView: portInView } = useInView({ threshold: 0.2 });
+    const { ref: goHighLevelRef, inView: goHighLevelInView } = useInView({ threshold: 0.2 });
+    const { ref: eduRef, inView: eduInView } = useInView({ threshold: 0.2 });
+    const { ref: certRef, inView: certInView } = useInView({ threshold: 0.2 });
+    const { ref: contactRef, inView: contactInView } = useInView({ threshold: 0.2 });
 
     useEffect(() => {
       if (aboutInView) setActiveSection("about-me");
@@ -117,12 +117,12 @@ export default function DesktopRoute() {
           <section id="employment-history" ref={expRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
             <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
 
-              <h1 id="employment-history-title" className="text-5xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Employment History</h1>
-              
+              <h1 id="employment-history-title" className="text-4xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Employment History</h1>
 
-                <div className="w-full mt-10 space-y-3 flex flex-col justify-between items-between">
+
+                <div className="w-full mt-10 space-y-8 flex flex-col justify-between items-between">
                   {employmentHistory.map((job, idx) => (
-                    <div
+                    <div  
                       key={idx}
                       className="w-full flex flex-row ml-55"
                       data-aos-anchor-placement="center-center"
@@ -163,31 +163,31 @@ export default function DesktopRoute() {
 
           <section id="creative-portfolio" ref={portRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
             <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
-              <h1 id="work-experience-title" className="text-5xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Creative Portfolio</h1>
+              <h1 id="work-experience-title" className="text-4xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Creative Portfolio</h1>
             </div>
           </section>
 
           <section id="go-high-level" ref={goHighLevelRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
             <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
-              <h1 id="work-experience-title" className="text-5xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Go High Level</h1>
+              <h1 id="work-experience-title" className="text-4xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Go High Level</h1>
             </div>
           </section>
 
           <section id="education" ref={eduRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
             <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
-              <h1 id="work-experience-title" className="text-5xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Education</h1>
+              <h1 id="work-experience-title" className="text-4xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Education</h1>
             </div>
           </section>
 
           <section id="certifications" ref={certRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
             <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
-              <h1 id="work-experience-title" className="text-5xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Certifications</h1>
+              <h1 id="work-experience-title" className="text-4xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Certifications</h1>
             </div>
           </section>
 
           <section id="contact" ref={contactRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
             <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
-              <h1 id="work-experience-title" className="text-5xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Contact</h1>
+              <h1 id="work-experience-title" className="text-4xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Contact</h1>
             </div>
           </section>
 
