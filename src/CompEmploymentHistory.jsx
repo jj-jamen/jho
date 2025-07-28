@@ -22,7 +22,7 @@ function CompEmploymentHistory() {
                         <img
                           src={job.image}
                           alt={job.title}
-                          className="w-45 h-45 rounded-lg p-1"
+                          className="w-30 h-30 rounded-lg p-1"
                         />
                       </div>
                       {/* Content section */}
