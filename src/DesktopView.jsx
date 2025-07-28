@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaLinkedin, FaDownload } from "react-icons/fa";
 import "./input.css"
-import employmentHistory from "./employmentHistory.json";
+import CompEmploymentHistory from "./CompEmploymentHistory";
 
 export default function DesktopRoute() {
     const [activeSection, setActiveSection] = useState("about-me");
@@ -115,50 +115,7 @@ export default function DesktopRoute() {
           </section>
 
           <section id="employment-history" ref={expRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
-            <div className="w-full min-h-[100vh] flex flex-col justify-start items-start" data-aos-anchor-placement="center-center">
-
-              <h1 id="employment-history-title" className="text-4xl uppercase font-black italic mt-20" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Employment History</h1>
-
-
-                <div className="w-full mt-10 space-y-8 flex flex-col justify-between items-between">
-                  {employmentHistory.map((job, idx) => (
-                    <div  
-                      key={idx}
-                      className="w-full flex flex-row ml-55"
-                      data-aos-anchor-placement="center-center"
-                    >
-                      {/* Image section */}
-                      <div className="w-1/8 min-w-[120px] bg-transparent flex items-center justify-center p-4">
-                        <img
-                          src={job.image}
-                          alt={job.title}
-                          className="w-25 h-25 object-cover rounded-full shadow-lg"
-                          data-aos="fade-right"
-                          data-aos-delay="200"
-                          data-aos-duration="1000"
-                        />
-                      </div>
-                      {/* Content section */}
-                      <div className="flex-1 max-w-1/2 p-6 flex flex-col justify-center shadow-2xl bg-white border border-gray-200 rounded-lg"
-                        data-aos="fade-left"
-                        data-aos-delay="400"
-                        data-aos-duration="1000"
-                      >
-                        <h2 className="text-xl font-bold text-gray-900 mb-1 uppercase">{job.title}</h2>
-                        <p className="text-md text-gray-700 mb-1">{job.company}  &nbsp; {job.dates}</p>
-                        <ul className="list-disc list-inside text-gray-700 space-y-1 pl-4">
-                          {job.responsibilities.map((resp, i) => (
-                            <li key={i}>{resp}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-
-            </div>
-
+            <CompEmploymentHistory />
           </section>
 
           <section id="creative-portfolio" ref={portRef} className="w-2/3 h-full flex justify-center items-center space-x-10">
